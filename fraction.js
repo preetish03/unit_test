@@ -12,13 +12,13 @@ function add(a,b)
 }
 function output(a,b,c)
 {
-  console.log("%d+%d is %d",a,b,c);
+  console.log("%d/%d is %d",a,b,c);
 }
 function main()
 {
   let a,b;
   [a,b]=input();
-  c=add(a,b);
+  c=div(a,b);
   output(a,b,c)
 }
 main();
